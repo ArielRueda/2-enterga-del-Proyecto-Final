@@ -1,0 +1,41 @@
+.container-fluid{
+background-color: #EAA798;
+
+}
+.navbar-brand p{
+font-family: 'Comforter', cursive;
+font-size: 4rem;
+} 
+
+.navbar-brand div li{
+	align-items: center;
+	justify-content: flex-end;
+
+}
+.nav-redes{
+	position: absolute;
+	left:  45%;
+	top: 2.7rem;
+}
+
+
+#footer{
+	background-color: #664942;
+}
+
+.redes li{
+	list-style: none;
+}
+
+.texto-carrousel2{
+	/*background-color:#6c757c5e;
+	 */
+}
+.w-100{
+	height: 500px;
+	object-fit: cover;
+}
+#contacto{
+	width: 80%;
+	margin: auto;
+}
