@@ -2,14 +2,18 @@
 <html lang="es">
 
 <head>
-    <title>2° Entrega Del Proyecto Final</title>
+    <title>Sobre Nosotros</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="scss/style.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Comforter&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <meta name="description" content="Espacio Comercial destinado a la venta de producto y Servicios ">
+    <meta name="keywords" content="Ceramica de autor, ceramica, artesanal,tazas,platos,jarrones,cuencos,maceteros">
     <link rel="icon" href="imagenes/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
 </head>
 
 <body>
@@ -39,55 +43,68 @@
         </div>
     </nav>
     <!---fin del Nav--->
+    <section>
 
-    <!---descripcion sobre nosotros--->
-    <div>
+        <!---descripcion sobre nosotros--->
+        <div class="container-ns mt-4">
 
-        <div class="texto-sn">
-            <p>Somos dos hermanas Magali carnevale y Cynthia carnevale, comenzamos desde la intuición y la experimentación del material al aprendizaje más formal en diferentes en talleres de zona sur, nuestro interés es crear desde el diseño, objetos cerámicos
-                únicos, con una estética informal y moderna</p>
+            <div class="row align-items-center">
+                <div class="texto-sn col-12 col-md-6 col-xl-6">
+                    <picture class="foto-sn-ma">
+                        <source srcset="imagenes/foto-magali.jpg" media="(max-width:480px)">
+                        <source srcset="imagenes/foto-maga400.jpg" media="(max-width:767px)">
 
+                        <img src="imagenes/magali.jpg" wi alt="magali">
+                    </picture>
+                </div>
+                <div class="col-12 col-md-6 col-xl-6 ">
+                    <p class="texto-sn1">
+                        Somos dos hermanas Magali carnevale y Cynthia carnevale, comenzamos desde la intuición y la experimentación del material al aprendizaje más formal en diferentes en talleres de zona sur
+                    </p>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-6">
+                    <p class="texto-sn2">
+                        Nuestro interés es crear desde el diseño, objetos cerámicos únicos, con una estética informal y moderna.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-6">
+                    <picture>
+                        <source srcset="imagenes/cyn280.jpg" media="(max-width:480px)">
+                        <img class="foto-cyn" src="imagenes/cyn.jpg">
+                    </picture>
+                </div>
+
+            </div>
         </div>
-
-
-    </div>
-
+    </section>
     <!---fin descripcion sobre nosotros-->
 
 
 
     <!--inicio del footer--->
-    <div id="footer" class="col-12">
+    <footer>
+        <div id="footer-ns" class="col-12">
 
-        <div class="munayka">
-            <p> MunaykaCopyrights © 2021 Todos los derechos reservados.</p>
+            <div class="munayka">
+                <p> MunaykaCopyrights © 2021 Todos los derechos reservados.</p>
+
+
+            </div>
+            <div class="redes-sn">
+
+                <ul class="d-flex justify-content-around">
+                    <li>Telefono 1124858271</li>
+                    <li><a href="https://www.instagram.com/munayka/" target=_blank>Instagram</a></li>
+                    <li>ruedamagali33@gmail.com</li>
+
+                </ul>
+            </div>
 
         </div>
-        <div class="logo-footer">Munayka</div>
-        <div class="nav-footer">
-            <p><b></b></p>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a href="preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
-
-            </ul>
-        </div>
-
-        <div class="redes">
-            <p><b>Redes</b></p>
-            <ul>
-                <li>Telefono 1124858271</li>
-                <li><a href="https://www.instagram.com/munayka/" target=_blank>Instagram</a></li>
-                <li>ruedamagali33@gmail.com</li>
-
-            </ul>
-        </div>
-
-    </div>
-
+    </footer>
 
     <!---fin del footer --->
     <script src="js/bootstrap.bundle.js"></script>
