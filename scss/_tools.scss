@@ -28,3 +28,795 @@
     background-color: #EAA798;
     height: 9rem;
 }
+
+@mixin modal-productos {
+    .modal2 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal2 {
+            width: 700px;
+            height: 400px;
+            top: -15rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal2 {
+                width: 100%;
+                .foto-modal2 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal2:checked~.modal2 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal2:checked~.modal2 .contenedor-modal2 {
+        transform: translateY(0%);
+    }
+    #btn-modal2 {
+        display: none;
+    }
+    .label-modal2 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal3-productos {
+    .modal3 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal3 {
+            width: 700px;
+            height: 200px;
+            top: -25rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal3 {
+                width: 100%;
+                .foto-modal3 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal3:checked~.modal3 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal3:checked~.modal3 .contenedor-modal3 {
+        transform: translateY(0%);
+    }
+    #btn-modal3 {
+        display: none;
+    }
+    .label-modal3 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal4-productos {
+    .modal4 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal4 {
+            width: 700px;
+            height: 400px;
+            top: -15rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal4 {
+                width: 100%;
+                .foto-modal4 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal4:checked~.modal4 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal4:checked~.modal4 .contenedor-modal4 {
+        transform: translateY(0%);
+    }
+    #btn-modal4 {
+        display: none;
+    }
+    .label-modal4 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal5-productos {
+    .modal5 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal5 {
+            width: 700px;
+            height: 200px;
+            top: -25rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal5 {
+                width: 100%;
+                .foto-modal5 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal5:checked~.modal5 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal5:checked~.modal5 .contenedor-modal5 {
+        transform: translateY(0%);
+    }
+    #btn-modal5 {
+        display: none;
+    }
+    .label-modal5 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal6-productos {
+    .modal6 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal6 {
+            width: 700px;
+            height: 400px;
+            top: -15rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal6 {
+                width: 100%;
+                .foto-modal6 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal6:checked~.modal6 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal6:checked~.modal6 .contenedor-modal6 {
+        transform: translateY(0%);
+    }
+    #btn-modal6 {
+        display: none;
+    }
+    .label-modal6 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal7-productos {
+    .modal7 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal7 {
+            width: 700px;
+            height: 200px;
+            top: -25rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal7 {
+                width: 100%;
+                .foto-modal7 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal7:checked~.modal7 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal7:checked~.modal7 .contenedor-modal7 {
+        transform: translateY(0%);
+    }
+    #btn-modal7 {
+        display: none;
+    }
+    .label-modal7 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal8-productos {
+    .modal8 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal8 {
+            width: 700px;
+            height: 400px;
+            top: -15rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal8 {
+                width: 100%;
+                .foto-modal8 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal8:checked~.modal8 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal8:checked~.modal8 .contenedor-modal8 {
+        transform: translateY(0%);
+    }
+    #btn-modal8 {
+        display: none;
+    }
+    .label-modal8 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal9-productos {
+    .modal9 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal9 {
+            width: 700px;
+            height: 200px;
+            top: -25rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal9 {
+                width: 100%;
+                .foto-modal9 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal9:checked~.modal9 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal9:checked~.modal9 .contenedor-modal9 {
+        transform: translateY(0%);
+    }
+    #btn-modal9 {
+        display: none;
+    }
+    .label-modal9 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal10-productos {
+    .modal10 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal10 {
+            width: 700px;
+            height: 400px;
+            top: -15rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal10 {
+                width: 100%;
+                .foto-modal10 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal10:checked~.modal10 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal10:checked~.modal10 .contenedor-modal10 {
+        transform: translateY(0%);
+    }
+    #btn-modal10 {
+        display: none;
+    }
+    .label-modal10 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal11-productos {
+    .modal11 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal11 {
+            width: 700px;
+            height: 200px;
+            top: -25rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal11 {
+                width: 100%;
+                .foto-modal11 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal11:checked~.modal11 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal11:checked~.modal11 .contenedor-modal11 {
+        transform: translateY(0%);
+    }
+    #btn-modal11 {
+        display: none;
+    }
+    .label-modal11 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+@mixin modal12-productos {
+    .modal12 {
+        width: 100%;
+        height: 150vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal12 {
+            width: 700px;
+            height: 400px;
+            top: -15rem;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal12 {
+                width: 100%;
+                .foto-modal12 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal12:checked~.modal12 {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal12:checked~.modal12 .contenedor-modal12 {
+        transform: translateY(0%);
+    }
+    #btn-modal12 {
+        display: none;
+    }
+    .label-modal12 {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}

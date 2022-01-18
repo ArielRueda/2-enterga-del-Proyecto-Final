@@ -35,11 +35,142 @@ body {
         top: 45rem;
         .foto-izq-main img {
             width: 100%;
+            position: relative;
+            top: -7rem;
         }
+        .texto-der-main {
+            position: relative;
+            width: 100%;
+            height: 45vh;
+            max-width: 1300px;
+            margin: auto;
+            top: -7rem;
+            font-size: 1.3rem;
+            font-family: 'Vollkorn', serif;
+            border: 1px solid black;
+            box-shadow: $box-shadow;
+        }
+    }
+    .fotos-inicio {
+        position: relative;
+        top: 37.5rem;
+        .w-20 {
+            width: 10%;
+        }
+        .w-sm-30 {
+            width: 20%;
+        }
+    }
+    .logo-whatsapp {
+        z-index: 10000;
+        left: 82%;
+        display: inline-block;
+    }
+    .modal {
+        width: 100%;
+        height: 100vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-modal {
+            width: 700px;
+            height: 400px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-modal {
+                width: 100%;
+                .foto-modal1 {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-modal:checked~.modal {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-modal:checked~.modal .contenedor-modal {
+        transform: translateY(0%);
+    }
+    #btn-modal {
+        display: none;
+    }
+    .label-modal {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .boton2-ps {
+        @include modal-productos
+    }
+    .boton3-ps {
+        @include modal3-productos
+    }
+    .boton4-ps {
+        @include modal4-productos
+    }
+    .boton5-ps {
+        @include modal5-productos
+    }
+    .boton6-ps {
+        @include modal6-productos
+    }
+    .boton7-ps {
+        @include modal7-productos
+    }
+    .boton8-ps {
+        @include modal8-productos
+    }
+    .boton9-ps {
+        @include modal9-productos
+    }
+    .boton10-ps {
+        @include modal10-productos
+    }
+    .boton11-ps {
+        @include modal11-productos
+    }
+    .boton12-ps {
+        @include modal12-productos
     }
     #footer {
         @include footer;
         .munayka {
+            text-align: center;
             font-size: 1.3rem;
             font-family: 'Vollkorn', serif;
         }
@@ -50,6 +181,7 @@ body {
             font-size: 1rem;
             a {
                 color: black;
+                font-family: 'Vollkorn', serif;
             }
             .d-flex {
                 flex-direction: column;
@@ -60,14 +192,16 @@ body {
         position: relative;
         top: 16rem;
         left: .5rem;
+        width: 288px;
     }
-    #footer3 {
+    #footer-producto {
         position: relative;
         top: 44rem;
-        width: 100%;
+        width: 102%;
         background-color: #EAA798;
         height: 12rem;
         .munayka {
+            text-align: center;
             font-size: 1.3rem;
             font-family: 'Vollkorn', serif;
         }
@@ -90,7 +224,6 @@ body {
         left: 1rem;
         .foto-sn-ma {
             position: relative;
-            border: 1px solid black;
         }
         .texto-sn1 {
             position: relative;
@@ -109,11 +242,14 @@ body {
         background-color: #EAA798;
         height: 9rem;
         .munayka {
+            text-align: center;
             font-size: 1.3rem;
             font-family: 'Vollkorn', serif;
         }
     }
     .contacto {
+        position: relative;
+        top: 15rem;
         .foto-contacto {
             display: none;
         }
@@ -126,6 +262,7 @@ body {
         background-color: #EAA798;
         left: 0;
         .munayka {
+            text-align: center;
             font-size: 1.3rem;
             font-family: 'Vollkorn', serif;
         }
@@ -215,28 +352,46 @@ body {
                 border-left: 1px solid black;
                 border-bottom: 1px solid black;
                 padding-left: .5rem;
+                box-shadow: $box-shadow;
+                ;
             }
+        }
+        .fotos-inicio {
+            top: 7.5rem;
         }
         #footer {
             position: relative;
             width: 100%;
-            top: 14rem;
+            top: 24rem;
             .redes {
                 width: 100%;
                 position: relative;
                 left: 0%;
                 top: 0.2rem;
                 font-size: 1.3rem;
-                font-family: 'Vollkorn', serif;
                 .d-flex {
                     flex-direction: row;
                     width: 100%;
+                    list-style: none;
+                    a {
+                        position: relative;
+                        left: 14rem;
+                        top: -0.5rem;
+                    }
+                    .gmail {
+                        position: relative;
+                        left: -7rem;
+                    }
                 }
             }
+        }
+        .logo-whatsapp {
+            left: 90%;
         }
         .container-ps {
             position: relative;
             top: 14rem;
+            width: 100%;
         }
         .foto-sn-ma {
             left: 2rem;
@@ -307,7 +462,7 @@ body {
         .contacto {
             position: relative;
             top: 23rem;
-            height: 80%;
+            height: 50%;
             .foto-contacto {
                 display: block;
                 position: relative;
@@ -320,6 +475,9 @@ body {
                 left: 50%;
             }
         }
+        .fotos-inicio {
+            top: 12.5rem;
+        }
         .footer-co {
             position: relative;
             top: 40rem;
@@ -329,8 +487,7 @@ body {
             left: 0rem;
             .munayka {
                 position: absolute;
-                left: 10%;
-                @extend .d-flex;
+                left: 25%;
             }
             .redes {
                 position: absolute;
@@ -357,7 +514,6 @@ body {
             }
         }
         #footer-ns {
-            @extend .redes;
             position: relative;
             top: 20rem;
             width: 100%;
