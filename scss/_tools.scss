@@ -94,9 +94,13 @@
         display: none;
     }
     .label-modal2 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -166,9 +170,13 @@
         display: none;
     }
     .label-modal3 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -238,9 +246,13 @@
         display: none;
     }
     .label-modal4 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -310,9 +322,13 @@
         display: none;
     }
     .label-modal5 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 4rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -382,9 +398,13 @@
         display: none;
     }
     .label-modal6 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -454,9 +474,13 @@
         display: none;
     }
     .label-modal7 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -526,9 +550,13 @@
         display: none;
     }
     .label-modal8 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -598,9 +626,13 @@
         display: none;
     }
     .label-modal9 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -670,9 +702,13 @@
         display: none;
     }
     .label-modal10 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -742,9 +778,13 @@
         display: none;
     }
     .label-modal11 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -814,9 +854,13 @@
         display: none;
     }
     .label-modal12 {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
-        border-radius: 4px;
+        position: absolute;
+        top: 1rem;
+        padding: 50% 50%;
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.4);
+        object-fit: contain;
+        background-size: cover;
         cursor: pointer;
     }
 }
@@ -885,8 +929,8 @@
         display: none;
     }
     .label-compras {
-        background: rgb(24, 99, 212);
-        padding: 10px 15px;
+        background: #EAA798;
+        padding: 10px 18vh;
         border-radius: 4px;
         cursor: pointer;
     }

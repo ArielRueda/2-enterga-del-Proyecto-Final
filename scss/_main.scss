@@ -365,6 +365,222 @@ body {
                 ;
             }
         }
+        .boton1-ps {
+            .label-modal {
+                position: absolute;
+                top: 1rem;
+                transition: all 500ms ease;
+                padding: 119px 112.5px;
+                width: 0%;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton2-ps {
+            .label-modal2 {
+                position: absolute;
+                top: 1rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal2:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton3-ps {
+            .label-modal3 {
+                position: absolute;
+                top: 1rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal3:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton4-ps {
+            .label-modal4 {
+                position: absolute;
+                top: 1rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal4:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton5-ps {
+            .label-modal5 {
+                position: absolute;
+                top: 32rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal5:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton6-ps {
+            .label-modal6 {
+                position: absolute;
+                top: 32rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal6:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton7-ps {
+            .label-modal7 {
+                position: absolute;
+                top: 32rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal7:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton8-ps {
+            .label-modal8 {
+                position: absolute;
+                top: 32rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal8:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton9-ps {
+            .label-modal9 {
+                position: absolute;
+                top: 62.4rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal9:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton10-ps {
+            .label-modal10 {
+                position: absolute;
+                top: 62.4rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal10:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton11-ps {
+            .label-modal11 {
+                position: absolute;
+                top: 62.4rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal11:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
+        .boton12-ps {
+            .label-modal12 {
+                position: absolute;
+                top: 63rem;
+                transition: all 500ms ease;
+                width: 0%;
+                padding: 119px 112.5px;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal:hover {
+                opacity: 1;
+                width: 21.4%;
+            }
+        }
         .fotos-inicio {
             top: 7.5rem;
         }
@@ -510,7 +726,7 @@ body {
             .label-modal {
                 position: absolute;
                 top: 1rem;
-                padding: 8% 8%;
+                padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
                 object-fit: contain;
