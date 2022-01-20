@@ -102,17 +102,13 @@ body .logo-whatsapp {
 body .boton1-ps .label-modal {
   position: absolute;
   top: 1rem;
-  padding: 8% 8%;
+  padding: 50% 50%;
   opacity: 0;
   background: rgba(0, 0, 0, 0.4);
   -o-object-fit: contain;
      object-fit: contain;
   background-size: cover;
   cursor: pointer;
-}
-
-body .boton1-ps .label-modal:hover {
-  opacity: 1;
 }
 
 body .boton1-ps .modal {
@@ -1556,6 +1552,20 @@ body .container-pf {
     position: relative;
     top: 14rem;
     width: 100%;
+  }
+  body .label-modal {
+    position: absolute;
+    top: 1rem;
+    padding: 8% 8%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.4);
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-size: cover;
+    cursor: pointer;
+  }
+  body .label-modal:hover {
+    opacity: 1;
   }
   body .foto-sn-ma {
     left: 2rem;
