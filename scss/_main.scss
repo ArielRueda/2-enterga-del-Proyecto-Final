@@ -402,19 +402,6 @@ body {
             top: 14rem;
             width: 100%;
         }
-        .label-modal {
-            position: absolute;
-            top: 1rem;
-            padding: 8% 8%;
-            opacity: 0;
-            background: rgba(0, 0, 0, 0.4);
-            object-fit: contain;
-            background-size: cover;
-            cursor: pointer;
-        }
-        .label-modal:hover {
-            opacity: 1;
-        }
         .foto-sn-ma {
             left: 2rem;
         }
@@ -517,6 +504,21 @@ body {
                 .d-flex {
                     font-size: 1.3rem;
                 }
+            }
+        }
+        .boton1-ps {
+            .label-modal {
+                position: absolute;
+                top: 1rem;
+                padding: 8% 8%;
+                opacity: 0;
+                background: rgba(0, 0, 0, 0.4);
+                object-fit: contain;
+                background-size: cover;
+                cursor: pointer;
+            }
+            .label-modal:hover {
+                opacity: 1;
             }
         }
         .container-ns {

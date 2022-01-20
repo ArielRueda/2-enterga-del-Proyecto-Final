@@ -1553,20 +1553,6 @@ body .container-pf {
     top: 14rem;
     width: 100%;
   }
-  body .label-modal {
-    position: absolute;
-    top: 1rem;
-    padding: 8% 8%;
-    opacity: 0;
-    background: rgba(0, 0, 0, 0.4);
-    -o-object-fit: contain;
-       object-fit: contain;
-    background-size: cover;
-    cursor: pointer;
-  }
-  body .label-modal:hover {
-    opacity: 1;
-  }
   body .foto-sn-ma {
     left: 2rem;
   }
@@ -1672,6 +1658,20 @@ body .container-pf {
   }
   body .footer-co .redes .d-flex {
     font-size: 1.3rem;
+  }
+  body .boton1-ps .label-modal {
+    position: absolute;
+    top: 1rem;
+    padding: 8% 8%;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.4);
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-size: cover;
+    cursor: pointer;
+  }
+  body .boton1-ps .label-modal:hover {
+    opacity: 1;
   }
   body .container-ns .texto-sn1 {
     position: relative;
