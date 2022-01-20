@@ -820,3 +820,74 @@
         cursor: pointer;
     }
 }
+
+@mixin boton-compras {
+    .modal-compras {
+        width: 100%;
+        height: 100vh;
+        z-index: 3000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 500ms ease;
+        opacity: 0;
+        visibility: hidden;
+        .contenedor-compras {
+            width: 700px;
+            height: 400px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 1px 7px 25px rgba (0, 0, 0, 0.6);
+            transition: all 500ms ease;
+            position: relative;
+            transform: translateY(-30%);
+            header {
+                padding: 10px;
+                background: black;
+                color: rgb(180, 58, 58);
+            }
+            label {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: red;
+                font-size: 15px;
+                cursor: pointer;
+            }
+            .imagen-compras {
+                width: 100%;
+                .foto-compras {
+                    width: 100%;
+                }
+            }
+        }
+        .cerrar-modal {
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    }
+    #btn-compras:checked~.modal-compras {
+        opacity: 1;
+        visibility: visible;
+    }
+    #btn-compras:checked~.modal-compras .contenedor-compras {
+        transform: translateY(0%);
+    }
+    #btn-compras {
+        display: none;
+    }
+    .label-compras {
+        background: rgb(24, 99, 212);
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
