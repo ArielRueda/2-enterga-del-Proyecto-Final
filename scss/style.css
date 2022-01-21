@@ -1359,7 +1359,7 @@ body .boton12-ps .label-modal12 {
 body .mapa-index {
   width: 100%;
   position: relative;
-  top: 0rem;
+  top: 4rem;
 }
 
 body .mapa-index .map {
@@ -1368,7 +1368,7 @@ body .mapa-index .map {
 
 body #footer {
   position: relative;
-  top: 1rem;
+  top: 7rem;
   width: 100%;
   background-color: #EAA798;
   height: 9rem;
