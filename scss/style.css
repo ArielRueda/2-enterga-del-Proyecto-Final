@@ -278,8 +278,8 @@ body .boton-compras-ps #btn-compras {
 }
 
 body .boton-compras-ps .label-compras {
-  background: #EAA798;
-  padding: 10px 18vh;
+  background: #99a489;
+  padding: 10px 7.5rem;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -370,7 +370,7 @@ body .boton2-ps #btn-modal2 {
 
 body .boton2-ps .label-modal2 {
   position: absolute;
-  top: 1rem;
+  top: 31rem;
   padding: 50% 50%;
   opacity: 0;
   background: rgba(0, 0, 0, 0.4);
@@ -394,7 +394,7 @@ body .boton3-ps .modal3 {
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
-  top: 0;
+  top: 62rem;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   -webkit-transition: all 500ms ease;
@@ -1783,6 +1783,10 @@ body .container-pf {
   body .boton12-ps .label-modal:hover {
     opacity: 1;
     width: 21.4%;
+  }
+  body .boton-compras-ps .label-compras {
+    padding-left: 7.4rem;
+    padding-right: 7.4rem;
   }
   body .fotos-inicio {
     top: 7.5rem;
