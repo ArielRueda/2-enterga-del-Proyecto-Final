@@ -1406,10 +1406,11 @@ body #footer-producto .redes a {
 }
 
 body #footer-producto .redes .d-flex {
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
 }
 
 body .container-ns {
@@ -1445,6 +1446,26 @@ body #footer-ns .munayka {
   text-align: center;
   font-size: 1.3rem;
   font-family: 'Vollkorn', serif;
+}
+
+body #footer-ns .redes-sn {
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+body #footer-ns .redes-sn .d-flex {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+}
+
+body #footer-ns .redes-sn .d-flex a {
+  color: black;
 }
 
 body .contacto {
@@ -1519,6 +1540,7 @@ body .container-pf {
   }
   body .footer-ns .redes-sn .d-flex {
     font-size: 1.3rem;
+    list-style: none;
   }
   body .footer-ns .redes-sn .d-flex a {
     font-size: 1.5rem;
