@@ -62,7 +62,7 @@ body .container2 {
 body .container2 .foto-izq-main img {
   width: 85%;
   position: relative;
-  top: -44rem;
+  top: -42rem;
   left: 2rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -1359,7 +1359,7 @@ body .boton12-ps .label-modal12 {
 body .mapa-index {
   width: 100%;
   position: relative;
-  top: 3rem;
+  top: 0rem;
 }
 
 body .mapa-index .map {
