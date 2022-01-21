@@ -1368,10 +1368,10 @@ body .mapa-index .map {
 
 body #footer {
   position: relative;
-  top: 7rem;
+  top: 14rem;
   width: 100%;
   background-color: #EAA798;
-  height: 9rem;
+  height: 12rem;
 }
 
 body #footer .munayka {
@@ -1405,10 +1405,10 @@ body .container-ps {
 
 body #footer-producto {
   position: relative;
-  top: 44rem;
+  top: 20rem;
   width: 102%;
   background-color: #EAA798;
-  height: 12rem;
+  height: 10rem;
 }
 
 body #footer-producto .munayka {
