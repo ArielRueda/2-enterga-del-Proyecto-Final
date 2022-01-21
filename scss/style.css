@@ -65,6 +65,8 @@ body .container2 .foto-izq-main img {
   position: relative;
   top: -10rem;
   left: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 body .container2 .texto-der-main {
