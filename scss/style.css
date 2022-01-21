@@ -63,7 +63,7 @@ body .container2 {
 body .container2 .foto-izq-main img {
   width: 85%;
   position: relative;
-  top: -3rem;
+  top: -9rem;
   left: 2rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -76,14 +76,14 @@ body .container2 .texto-der-main {
   padding: 3rem;
   max-width: 1300px;
   margin: auto;
-  top: -5rem;
-  font-size: 1.1rem;
+  top: -10rem;
+  font-size: 1.3rem;
   font-family: 'Vollkorn', serif;
 }
 
 body .fotos-inicio {
   position: relative;
-  top: 65.5rem;
+  top: 41.5rem;
 }
 
 body .fotos-inicio .w-20 {
@@ -1360,7 +1360,7 @@ body .boton12-ps .label-modal12 {
 
 body #footer {
   position: relative;
-  top: 68rem;
+  top: 45rem;
   width: 100%;
   background-color: #EAA798;
   height: 9rem;
