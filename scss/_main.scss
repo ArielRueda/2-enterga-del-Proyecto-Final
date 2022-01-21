@@ -191,6 +191,14 @@
         .boton12-ps {
             @include modal12-productos
         }
+        .mapa-index {
+            width: 100%;
+            position: relative;
+            top: 3rem;
+            .map {
+                width: 100%;
+            }
+        }
         #footer {
             @include footer;
             .munayka {

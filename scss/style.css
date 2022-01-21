@@ -49,7 +49,7 @@ body .texto-main {
   padding: 3rem;
   max-width: 1300px;
   margin: auto;
-  top: 4rem;
+  top: 7rem;
   font-size: 1.3rem;
   font-family: 'Vollkorn', serif;
 }
@@ -1354,6 +1354,16 @@ body .boton12-ps .label-modal12 {
      object-fit: contain;
   background-size: cover;
   cursor: pointer;
+}
+
+body .mapa-index {
+  width: 100%;
+  position: relative;
+  top: 3rem;
+}
+
+body .mapa-index .map {
+  width: 100%;
 }
 
 body #footer {
