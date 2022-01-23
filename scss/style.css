@@ -1,4 +1,5 @@
 body {
+  overflow-x: hidden;
   background-color: #e9e9e9;
 }
 
@@ -85,7 +86,7 @@ body .fotos-inicio {
 }
 
 body .fotos-inicio .w-20 {
-  width: 10%;
+  width: 50%;
 }
 
 body .fotos-inicio .w-sm-30 {
@@ -128,7 +129,7 @@ body .boton1-ps .label-modal {
 }
 
 body .boton1-ps .modal {
-  width: 1000%;
+  width: 100%;
   height: 100vh;
   z-index: 3000;
   display: -webkit-box;
@@ -140,7 +141,6 @@ body .boton1-ps .modal {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: fixed;
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -165,7 +165,6 @@ body .boton1-ps .modal .contenedor-modal {
 }
 
 body .boton1-ps .modal .contenedor-modal header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -174,8 +173,8 @@ body .boton1-ps .modal .contenedor-modal label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -235,7 +234,7 @@ body .boton-compras-ps .modal-compras {
 
 body .boton-compras-ps .modal-compras .contenedor-compras {
   width: 700px;
-  height: 400px;
+  height: 100px;
   margin: auto;
   background: #fff;
   -webkit-box-shadow: 1px 7px 25px rgba 0, 0, 0, 0.6;
@@ -339,7 +338,6 @@ body .boton2-ps .modal2 .contenedor-modal2 {
 }
 
 body .boton2-ps .modal2 .contenedor-modal2 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -348,8 +346,8 @@ body .boton2-ps .modal2 .contenedor-modal2 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -435,7 +433,6 @@ body .boton3-ps .modal3 .contenedor-modal3 {
 }
 
 body .boton3-ps .modal3 .contenedor-modal3 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -444,8 +441,8 @@ body .boton3-ps .modal3 .contenedor-modal3 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -531,7 +528,6 @@ body .boton4-ps .modal4 .contenedor-modal4 {
 }
 
 body .boton4-ps .modal4 .contenedor-modal4 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -540,8 +536,8 @@ body .boton4-ps .modal4 .contenedor-modal4 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -627,7 +623,6 @@ body .boton5-ps .modal5 .contenedor-modal5 {
 }
 
 body .boton5-ps .modal5 .contenedor-modal5 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -636,8 +631,8 @@ body .boton5-ps .modal5 .contenedor-modal5 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -723,7 +718,6 @@ body .boton6-ps .modal6 .contenedor-modal6 {
 }
 
 body .boton6-ps .modal6 .contenedor-modal6 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -732,8 +726,8 @@ body .boton6-ps .modal6 .contenedor-modal6 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -819,7 +813,6 @@ body .boton7-ps .modal7 .contenedor-modal7 {
 }
 
 body .boton7-ps .modal7 .contenedor-modal7 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -828,8 +821,8 @@ body .boton7-ps .modal7 .contenedor-modal7 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -915,7 +908,6 @@ body .boton8-ps .modal8 .contenedor-modal8 {
 }
 
 body .boton8-ps .modal8 .contenedor-modal8 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -924,8 +916,8 @@ body .boton8-ps .modal8 .contenedor-modal8 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -1011,7 +1003,6 @@ body .boton9-ps .modal9 .contenedor-modal9 {
 }
 
 body .boton9-ps .modal9 .contenedor-modal9 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -1020,8 +1011,8 @@ body .boton9-ps .modal9 .contenedor-modal9 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -1107,7 +1098,6 @@ body .boton10-ps .modal10 .contenedor-modal10 {
 }
 
 body .boton10-ps .modal10 .contenedor-modal10 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -1116,8 +1106,8 @@ body .boton10-ps .modal10 .contenedor-modal10 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -1203,7 +1193,6 @@ body .boton11-ps .modal11 .contenedor-modal11 {
 }
 
 body .boton11-ps .modal11 .contenedor-modal11 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -1212,8 +1201,8 @@ body .boton11-ps .modal11 .contenedor-modal11 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -1286,7 +1275,7 @@ body .boton12-ps .modal12 {
 body .boton12-ps .modal12 .contenedor-modal12 {
   width: 700px;
   height: 400px;
-  top: -15rem;
+  top: -25rem;
   margin: auto;
   background: #fff;
   -webkit-box-shadow: 1px 7px 25px rgba 0, 0, 0, 0.6;
@@ -1299,7 +1288,6 @@ body .boton12-ps .modal12 .contenedor-modal12 {
 }
 
 body .boton12-ps .modal12 .contenedor-modal12 header {
-  padding: 10px;
   background: black;
   color: #b43a3a;
 }
@@ -1308,8 +1296,8 @@ body .boton12-ps .modal12 .contenedor-modal12 label {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: red;
-  font-size: 15px;
+  color: black;
+  font-size: 35px;
   cursor: pointer;
 }
 
@@ -1359,7 +1347,8 @@ body .boton12-ps .label-modal12 {
 body .mapa-index {
   width: 100%;
   position: relative;
-  top: 4rem;
+  top: 9rem;
+  border: solid #EAA798;
 }
 
 body .mapa-index .map {
@@ -1368,7 +1357,7 @@ body .mapa-index .map {
 
 body .container-pf .texto-pf .btn-pf {
   background-color: #EAA798;
-  border-radius: 4px;
+  border-radius: 12px;
   font-family: 'Vollkorn', serif;
 }
 
@@ -1646,11 +1635,6 @@ body .container-pf {
     top: 2rem;
     font-size: 1.15rem;
   }
-  body .container-pf .texto-pf .btn-pf {
-    background-color: #EAA798;
-    border-radius: 4px;
-    font-family: 'Vollkorn', serif;
-  }
   body .container-pf .texto-pf .btn-pf h5 {
     font-size: 1.6rem;
   }
@@ -1678,12 +1662,12 @@ body .container-pf {
     top: 14rem;
   }
   body .boton1-ps .label-modal {
-    position: absolute;
+    position: relative;
     top: 1rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     padding: 119px 112.5px;
-    width: 0%;
+    width: 0rem;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
     -o-object-fit: contain;
@@ -1691,16 +1675,18 @@ body .container-pf {
     background-size: cover;
     cursor: pointer;
   }
-  body .boton1-ps .label-modal:hover {
+  body .boton1-ps .label-modal.label-modal:hover {
+    position: absolute;
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
+    overflow-x: hidden;
   }
   body .boton2-ps .label-modal2 {
     position: absolute;
     top: 1rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1711,14 +1697,14 @@ body .container-pf {
   }
   body .boton2-ps .label-modal2:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton3-ps .label-modal3 {
     position: absolute;
     top: 1rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1729,14 +1715,14 @@ body .container-pf {
   }
   body .boton3-ps .label-modal3:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton4-ps .label-modal4 {
     position: absolute;
     top: 1rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1747,14 +1733,14 @@ body .container-pf {
   }
   body .boton4-ps .label-modal4:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton5-ps .label-modal5 {
     position: absolute;
     top: 32rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1765,14 +1751,14 @@ body .container-pf {
   }
   body .boton5-ps .label-modal5:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton6-ps .label-modal6 {
     position: absolute;
     top: 32rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1783,14 +1769,14 @@ body .container-pf {
   }
   body .boton6-ps .label-modal6:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton7-ps .label-modal7 {
     position: absolute;
     top: 32rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1801,14 +1787,14 @@ body .container-pf {
   }
   body .boton7-ps .label-modal7:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton8-ps .label-modal8 {
     position: absolute;
     top: 32rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1819,14 +1805,14 @@ body .container-pf {
   }
   body .boton8-ps .label-modal8:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton9-ps .label-modal9 {
     position: absolute;
     top: 62.4rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1837,14 +1823,14 @@ body .container-pf {
   }
   body .boton9-ps .label-modal9:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton10-ps .label-modal10 {
     position: absolute;
     top: 62.4rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1855,14 +1841,14 @@ body .container-pf {
   }
   body .boton10-ps .label-modal10:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton11-ps .label-modal11 {
     position: absolute;
     top: 62.4rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1873,14 +1859,14 @@ body .container-pf {
   }
   body .boton11-ps .label-modal11:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton12-ps .label-modal12 {
     position: absolute;
-    top: 63rem;
+    top: 62.4rem;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
-    width: 0%;
+    width: 0rem;
     padding: 119px 112.5px;
     opacity: 0;
     background: rgba(0, 0, 0, 0.4);
@@ -1889,9 +1875,9 @@ body .container-pf {
     background-size: cover;
     cursor: pointer;
   }
-  body .boton12-ps .label-modal:hover {
+  body .boton12-ps .label-modal12:hover {
     opacity: 1;
-    width: 21.4%;
+    width: 18rem;
   }
   body .boton-compras-ps .label-compras {
     padding-left: 7.4rem;
@@ -1928,7 +1914,7 @@ body .container-pf {
   body #footer .redes {
     width: 100%;
     position: relative;
-    left: 0%;
+    left: -9rem;
     top: 0.2rem;
     font-size: 1.3rem;
   }
@@ -2018,14 +2004,6 @@ body .container-pf {
     width: 80%;
     top: 2rem;
     font-size: 1.15rem;
-  }
-  body .container-pf .texto-pf .btn-pf {
-    background-color: #EAA798;
-    border-radius: 4px;
-    font-family: 'Vollkorn', serif;
-  }
-  body .container-pf .texto-pf .btn-pf h5 {
-    font-size: 1.6rem;
   }
   body #footer-pf {
     top: 20rem;

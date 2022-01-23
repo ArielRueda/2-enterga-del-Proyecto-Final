@@ -1,4 +1,5 @@
 body {
+    overflow-x: hidden;
     background-color: #e9e9e9;
     #barra {
         box-shadow: $box-shadow;
@@ -55,7 +56,7 @@ body {
         position: relative;
         top: -2.5rem;
         .w-20 {
-            width: 10%;
+            width: 50%;
         }
         .w-sm-30 {
             width: 20%;
@@ -93,13 +94,12 @@ body {
             cursor: pointer;
         }
         .modal {
-            width: 1000%;
+            width: 100%;
             height: 100vh;
             z-index: 3000;
             display: flex;
             justify-content: center;
             align-items: center;
-            position: fixed;
             top: 0;
             left: 0;
             background: rgba(0, 0, 0, 0.5);
@@ -116,7 +116,6 @@ body {
                 position: relative;
                 transform: translateY(-30%);
                 header {
-                    padding: 10px;
                     background: black;
                     color: rgb(180, 58, 58);
                 }
@@ -124,8 +123,8 @@ body {
                     position: absolute;
                     top: 10px;
                     right: 10px;
-                    color: red;
-                    font-size: 15px;
+                    color: black;
+                    font-size: 35px;
                     cursor: pointer;
                 }
                 .imagen-modal {
@@ -194,7 +193,9 @@ body {
     .mapa-index {
         width: 100%;
         position: relative;
-        top: 4rem;
+        top: 9rem;
+        border: solid #EAA798;
+        ;
         .map {
             width: 100%;
         }
@@ -203,7 +204,7 @@ body {
         .texto-pf {
             .btn-pf {
                 background-color: #EAA798;
-                border-radius: 4px;
+                border-radius: 12px;
                 font-family: 'Vollkorn', serif;
                 h5 {
                     font-size: 1.4rem;
@@ -438,9 +439,6 @@ body {
                 top: 2rem;
                 font-size: 1.15rem;
                 .btn-pf {
-                    background-color: #EAA798;
-                    border-radius: 4px;
-                    font-family: 'Vollkorn', serif;
                     h5 {
                         font-size: 1.6rem;
                     }
@@ -471,20 +469,22 @@ body {
         }
         .boton1-ps {
             .label-modal {
-                position: absolute;
+                position: relative;
                 top: 1rem;
                 transition: all 500ms ease;
                 padding: 119px 112.5px;
-                width: 0%;
+                width: 0rem;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
                 object-fit: contain;
                 background-size: cover;
                 cursor: pointer;
-            }
-            .label-modal:hover {
-                opacity: 1;
-                width: 21.4%;
+                &.label-modal:hover {
+                    position: absolute;
+                    opacity: 1;
+                    width: 18rem;
+                    overflow-x: hidden
+                }
             }
         }
         .boton2-ps {
@@ -492,7 +492,7 @@ body {
                 position: absolute;
                 top: 1rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -502,7 +502,7 @@ body {
             }
             .label-modal2:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton3-ps {
@@ -510,7 +510,7 @@ body {
                 position: absolute;
                 top: 1rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -520,7 +520,7 @@ body {
             }
             .label-modal3:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton4-ps {
@@ -528,7 +528,7 @@ body {
                 position: absolute;
                 top: 1rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -538,7 +538,7 @@ body {
             }
             .label-modal4:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton5-ps {
@@ -546,7 +546,7 @@ body {
                 position: absolute;
                 top: 32rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -556,7 +556,7 @@ body {
             }
             .label-modal5:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton6-ps {
@@ -564,7 +564,7 @@ body {
                 position: absolute;
                 top: 32rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -574,7 +574,7 @@ body {
             }
             .label-modal6:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton7-ps {
@@ -582,7 +582,7 @@ body {
                 position: absolute;
                 top: 32rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -592,7 +592,7 @@ body {
             }
             .label-modal7:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton8-ps {
@@ -600,7 +600,7 @@ body {
                 position: absolute;
                 top: 32rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -610,7 +610,7 @@ body {
             }
             .label-modal8:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton9-ps {
@@ -618,7 +618,7 @@ body {
                 position: absolute;
                 top: 62.4rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -628,7 +628,7 @@ body {
             }
             .label-modal9:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton10-ps {
@@ -636,7 +636,7 @@ body {
                 position: absolute;
                 top: 62.4rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -646,7 +646,7 @@ body {
             }
             .label-modal10:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton11-ps {
@@ -654,7 +654,7 @@ body {
                 position: absolute;
                 top: 62.4rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -664,15 +664,15 @@ body {
             }
             .label-modal11:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton12-ps {
             .label-modal12 {
                 position: absolute;
-                top: 63rem;
+                top: 62.4rem;
                 transition: all 500ms ease;
-                width: 0%;
+                width: 0rem;
                 padding: 119px 112.5px;
                 opacity: 0;
                 background: rgba(0, 0, 0, 0.4);
@@ -680,9 +680,9 @@ body {
                 background-size: cover;
                 cursor: pointer;
             }
-            .label-modal:hover {
+            .label-modal12:hover {
                 opacity: 1;
-                width: 21.4%;
+                width: 18rem;
             }
         }
         .boton-compras-ps {
@@ -721,7 +721,7 @@ body {
             .redes {
                 width: 100%;
                 position: relative;
-                left: 0%;
+                left: -9rem;
                 top: 0.2rem;
                 font-size: 1.3rem;
                 .d-flex {
@@ -808,14 +808,6 @@ body {
                 width: 80%;
                 top: 2rem;
                 font-size: 1.15rem;
-                .btn-pf {
-                    background-color: #EAA798;
-                    border-radius: 4px;
-                    font-family: 'Vollkorn', serif;
-                    h5 {
-                        font-size: 1.6rem;
-                    }
-                }
             }
         }
         #footer-pf {
