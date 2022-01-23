@@ -63,7 +63,7 @@ body .container2 .foto-izq-main img {
   width: 85%;
   position: relative;
   top: -42rem;
-  left: 2rem;
+  left: 3.2rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1527,6 +1527,7 @@ body .footer-co .redes .d-flex {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  list-style: none;
 }
 
 body .footer-co .redes .d-flex a {
@@ -1552,6 +1553,10 @@ body .container-pf {
     position: absolute;
     left: 1rem;
     width: 80%;
+  }
+  body .navbar-nav {
+    position: relative;
+    left: 21rem;
   }
   body .footer-ns .redes-sn {
     width: 160%;
@@ -2032,7 +2037,7 @@ body .container-pf {
     top: 33rem;
   }
   body .container2 .texto-der-main {
-    top: -1rem;
+    top: 6.4rem;
     font-size: 1.6rem;
   }
   body .container-ns .texto-sn1 {
