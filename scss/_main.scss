@@ -358,9 +358,9 @@ body {
             position: absolute;
             top: 4rem;
             width: 100%;
+            left: -2rem;
             font-size: 1rem;
             .d-flex {
-                flex-direction: column;
                 list-style: none;
                 a {
                     color: black;
@@ -378,7 +378,7 @@ body {
     @media all and (min-width: 768px) {
         .contacto {
             position: relative;
-            top: 6rem;
+            top: 15rem;
             .foto-contacto {
                 display: block;
             }
@@ -387,10 +387,6 @@ body {
                 left: 1rem;
                 width: 80%;
             }
-        }
-        .navbar-nav {
-            position: relative;
-            left: 21rem;
         }
         .footer-ns {
             .redes-sn {
@@ -418,9 +414,8 @@ body {
         }
         .footer-co {
             position: relative;
-            top: 7rem;
-            width: 130%;
-            height: 25vh;
+            top: 19rem;
+            width: 100%;
             background-color: #EAA798;
             left: -0.8rem;
             .redes {
@@ -799,6 +794,10 @@ body {
         }
     }
     @media all and (min-width: 1200px) {
+        .navbar-nav {
+            position: relative;
+            left: 30%;
+        }
         .container {
             left: 0;
             top: 3rem;
